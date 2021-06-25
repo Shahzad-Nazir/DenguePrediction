@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{772A2F10-4474-4F83-8E27-B9CA85489E17}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UpdatedShahbazAhmad</RootNamespace>
+    <AssemblyName>UpdatedShahbazAhmad</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="AboutUs.aspx" />
+    <Content Include="AddPatient.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="DeleteData.aspx" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="elements.html" />
+    <Content Include="images\arrows-ffffff.png" />
+    <Content Include="images\arrows.png" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\bgimg.jpg" />
+    <Content Include="images\blackcircle.png" />
+    <Content Include="images\boxedshadow.png" />
+    <Content Include="images\bullets.png" />
+    <Content Include="images\check.png" />
+    <Content Include="images\comments.png" />
+    <Content Include="images\div.png" />
+    <Content Include="images\dots.gif" />
+    <Content Include="images\Dr.Asif.jpg" />
+    <Content Include="images\Dr.Shahzad.jpg" />
+    <Content Include="images\gravatar.png" />
+    <Content Include="images\info.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\menu-icon.png" />
+    <Content Include="images\minus.png" />
+    <Content Include="images\miscellaneous_sprite.png" />
+    <Content Include="images\playgal.png" />
+    <Content Include="images\plus.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="images\prettyPhoto\default\loader.gif" />
+    <Content Include="images\prettyPhoto\default\sprite.png" />
+    <Content Include="images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\settings.png" />
+    <Content Include="images\Shahbaz.jpg" />
+    <Content Include="images\socialpack\deviantart.png" />
+    <Content Include="images\socialpack\deviantarta.png" />
+    <Content Include="images\socialpack\dribbble.png" />
+    <Content Include="images\socialpack\dribbblea.png" />
+    <Content Include="images\socialpack\facebook.png" />
+    <Content Include="images\socialpack\facebooka.png" />
+    <Content Include="images\socialpack\flickr.png" />
+    <Content Include="images\socialpack\flickra.png" />
+    <Content Include="images\socialpack\twitter.png" />
+    <Content Include="images\socialpack\twittera.png" />
+    <Content Include="images\straws.png" />
+    <Content Include="images\titleborder.png" />
+    <Content Include="images\up-arrow.png" />
+    <Content Include="images\white-arrow.gif" />
+    <Content Include="images\wraphover.png" />
+    <Content Include="Default.aspx" />
+    <Content Include="javascripts\app.js" />
+    <Content Include="javascripts\custom.js" />
+    <Content Include="javascripts\elasticslideshow.js" />
+    <Content Include="javascripts\formvalidation.js" />
+    <Content Include="javascripts\foundation.min.js" />
+    <Content Include="javascripts\hoverIntent.js" />
+    <Content Include="javascripts\jquery.carouFredSel-6.0.5-packed.js" />
+    <Content Include="javascripts\jquery.cycle.js" />
+    <Content Include="javascripts\jquery.easing.1.3.js" />
+    <Content Include="javascripts\jquery.isotope.min.js" />
+    <Content Include="javascripts\jquery.prettyPhoto.js" />
+    <Content Include="javascripts\jquery.tweet.js" />
+    <Content Include="javascripts\modernizr.foundation.js" />
+    <Content Include="javascripts\responsivemenu.js" />
+    <Content Include="javascripts\scrolltotop.js" />
+    <Content Include="javascripts\slidepanel.js" />
+    <Content Include="javascripts\superfish.js" />
+    <Content Include="MonthlyAnalysis.aspx" />
+    <Content Include="MonthlyDistrict.aspx" />
+    <Content Include="NewPassword.aspx" />
+    <Content Include="Predictor.aspx" />
+    <Content Include="stylesheets\fonts\Bitter OFL SIL Font License 1.1.txt" />
+    <Content Include="stylesheets\fonts\Bitter-Bold-webfont.svg" />
+    <Content Include="stylesheets\fonts\Bitter-Italic-webfont.svg" />
+    <Content Include="stylesheets\fonts\Bitter-Regular-webfont.svg" />
+    <Content Include="stylesheets\fonts\DroidSans-Bold-webfont.svg" />
+    <Content Include="stylesheets\fonts\DroidSans-webfont.svg" />
+    <Content Include="stylesheets\fonts\fontawesome-webfont.svg" />
+    <Content Include="stylesheets\fonts\Google Android License.txt" />
+    <Content Include="stylesheets\responsive.css" />
+    <Content Include="stylesheets\skins\blue.css" />
+    <Content Include="stylesheets\skins\green.css" />
+    <Content Include="stylesheets\skins\khaki.css" />
+    <Content Include="stylesheets\skins\lilac.css" />
+    <Content Include="stylesheets\skins\orange.css" />
+    <Content Include="stylesheets\skins\pink.css" />
+    <Content Include="stylesheets\skins\red.css" />
+    <Content Include="stylesheets\skins\teal.css" />
+    <Content Include="stylesheets\skins\yellow.css" />
+    <Content Include="stylesheets\style.css" />
+    <Content Include="UpdateData.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WeeklyAnalysis.aspx" />
+    <Content Include="WeeklyDistrict.aspx" />
+    <Content Include="YearlyAnalysis.aspx" />
+    <Content Include="YearlyDistrict.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPatient.aspx.cs">
+      <DependentUpon>AddPatient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPatient.aspx.designer.cs">
+      <DependentUpon>AddPatient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteData.aspx.cs">
+      <DependentUpon>DeleteData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteData.aspx.designer.cs">
+      <DependentUpon>DeleteData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MonthlyAnalysis.aspx.cs">
+      <DependentUpon>MonthlyAnalysis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonthlyAnalysis.aspx.designer.cs">
+      <DependentUpon>MonthlyAnalysis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MonthlyDistrict.aspx.cs">
+      <DependentUpon>MonthlyDistrict.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonthlyDistrict.aspx.designer.cs">
+      <DependentUpon>MonthlyDistrict.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewPassword.aspx.cs">
+      <DependentUpon>NewPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewPassword.aspx.designer.cs">
+      <DependentUpon>NewPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Predictor.aspx.cs">
+      <DependentUpon>Predictor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Predictor.aspx.designer.cs">
+      <DependentUpon>Predictor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateData.aspx.cs">
+      <DependentUpon>UpdateData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateData.aspx.designer.cs">
+      <DependentUpon>UpdateData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WeeklyAnalysis.aspx.cs">
+      <DependentUpon>WeeklyAnalysis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeeklyAnalysis.aspx.designer.cs">
+      <DependentUpon>WeeklyAnalysis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WeeklyDistrict.aspx.cs">
+      <DependentUpon>WeeklyDistrict.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeeklyDistrict.aspx.designer.cs">
+      <DependentUpon>WeeklyDistrict.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YearlyAnalysis.aspx.cs">
+      <DependentUpon>YearlyAnalysis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YearlyAnalysis.aspx.designer.cs">
+      <DependentUpon>YearlyAnalysis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YearlyDistrict.aspx.cs">
+      <DependentUpon>YearlyDistrict.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YearlyDistrict.aspx.designer.cs">
+      <DependentUpon>YearlyDistrict.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="stylesheets\fonts\Bitter-Bold-webfont.eot" />
+    <Content Include="stylesheets\fonts\Bitter-Bold-webfont.ttf" />
+    <Content Include="stylesheets\fonts\Bitter-Bold-webfont.woff" />
+    <Content Include="stylesheets\fonts\Bitter-Italic-webfont.eot" />
+    <Content Include="stylesheets\fonts\Bitter-Italic-webfont.ttf" />
+    <Content Include="stylesheets\fonts\Bitter-Italic-webfont.woff" />
+    <Content Include="stylesheets\fonts\Bitter-Regular-webfont.eot" />
+    <Content Include="stylesheets\fonts\Bitter-Regular-webfont.ttf" />
+    <Content Include="stylesheets\fonts\Bitter-Regular-webfont.woff" />
+    <Content Include="stylesheets\fonts\Chunkfive-webfont.ttf" />
+    <Content Include="stylesheets\fonts\DroidSans-Bold-webfont.eot" />
+    <Content Include="stylesheets\fonts\DroidSans-Bold-webfont.ttf" />
+    <Content Include="stylesheets\fonts\DroidSans-Bold-webfont.woff" />
+    <Content Include="stylesheets\fonts\DroidSans-webfont.eot" />
+    <Content Include="stylesheets\fonts\DroidSans-webfont.ttf" />
+    <Content Include="stylesheets\fonts\DroidSans-webfont.woff" />
+    <Content Include="stylesheets\fonts\fontawesome-webfont.eot" />
+    <Content Include="stylesheets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="stylesheets\fonts\fontawesome-webfont.woff" />
+    <Content Include="stylesheets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="stylesheets\fonts\FontAwesome.otf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50014/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
